@@ -4,12 +4,6 @@ public class MethodEx2Main {
 	public static void main(String[] args) {
 		MethodEx2 m = new MethodEx2();
 		
-		int num2 = 102545;
-		int[] result3 = m.m5a(num2);
-		for(int i : result3) {
-			System.out.println(i);
-		}
-		
 		// 반환타입 : Map
 		// 매개타입 : Student
 		Student s9 = new Student();
@@ -57,6 +51,12 @@ public class MethodEx2Main {
 		
 		
 		// 반환타입 : 배열, 매개타입 : int
+		int num2 = 102545;
+		int[] result3 = m.m5a(num2);
+		for(int i : result3) {
+			System.out.println(i);
+		}
+		
 		int num = 1004;
 		String[] result2 = m.m5b(num);
 		for(String s : result2) {
