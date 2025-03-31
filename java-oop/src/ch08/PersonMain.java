@@ -9,10 +9,12 @@ public class PersonMain {
 		Person p2 = new Person("admin","1234");
 		// p2.id = admin, p2.pw = 1234
 		
+		// 1-1
 		p1.m11();
 		
 		p1.m11a();
 		
+		// 1-2
 		p1.m12(12);
 		Calendar c = Calendar.getInstance();
 		int h = c.get(Calendar.HOUR);
@@ -30,6 +32,7 @@ public class PersonMain {
 		String name = "abc";
 		p1.m13a(name);
 		
+		// 로그인
 		p2.m13b("admin", "1234");
 		
 		// 1-4 
@@ -39,6 +42,7 @@ public class PersonMain {
 		
 		// 1-5
 		Data d = new Data(7,7);
+		System.out.println(d.y);
 		p1.m15a(d);
 		System.out.println(d.x);
 		System.out.println(d.y);

@@ -70,7 +70,7 @@ public class Person {
 		}
 	}
 	
-	// 로그인(Person id,pw가 동일하면 로그인)
+	// 로그인(Person id, pw가 동일하면 로그인)
 	public void m13b(String id, String pw) {
 		if(this.id.equals(id) && this.pw.equals(pw)) {
 			System.out.println("로그인 성공");
@@ -104,7 +104,7 @@ public class Person {
 	public void m16a(Data[] datas) {
 		for(int i=0; i<datas.length; i++) {
 			if(datas[i].x % 2 != 0) {
-				System.out.print(datas[i].y +",");
+				System.out.println(datas[i].y +",");
 			}
 		}
 		System.out.println();
